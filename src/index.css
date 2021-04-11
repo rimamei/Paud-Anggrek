@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .link {
+    @apply py-2 lg:mx-4 hover:text-gray-500 lg:hover:text-black lg:border-b-2 lg:border-transparent lg:hover:border-gray-900 lg:transition lg:duration-100 lg:ease-in-out
+  }
+  .btn {
+    @apply py-2 lg:mx-4 lg:transition lg:duration-100 lg:ease-in-out lg:bg-purple-300 lg:px-4 lg:hover:bg-purple-200 lg:rounded-full lg:hover:text-black hover:text-gray-500
+  }
+
+  .badge {
+    @apply text-center hover:underline
+  }
+
+  @media (max-width:720px) { 
+    .menu {
+      background-color: rgb(255, 255, 255);
+      padding-bottom: 20px;
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      z-index: 1;
+    }
+  }
